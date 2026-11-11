@@ -1,0 +1,512 @@
+{
+  "programa": "economia",
+  "fuente": "../materias/Pensum_Economia_actualizado.xlsx (hoja «Pensum actualizado»).",
+  "periodo_de_oferta": "2026-2",
+  "nota_de_alcance": "Este catálogo conserva códigos, nombres, créditos, semestres y requisitos del pensum. Los grupos y sesiones de las materias regulares se importan desde oferta_materias_regulares_2026_2.json.",
+  "materias": [
+    {
+      "codigo": "303013C",
+      "nombre": "Principios de Economía",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "303003C",
+      "nombre": "Teoría Social",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "111009C",
+      "nombre": "Matemática Básica",
+      "creditos": 4,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "201087C",
+      "nombre": "Historia Económica General",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "204133C",
+      "nombre": "Comprensión y Producción de Textos Académicos Generales",
+      "creditos": 2,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "204025C",
+      "nombre": "Inglés con Fines Generales y Académicos I",
+      "creditos": 2,
+      "semestre_sugerido": 1,
+      "requisitos": []
+    },
+    {
+      "codigo": "303014C",
+      "nombre": "Microeconomía I",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "requisitos": [
+        {
+          "codigo_materia": "303013C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "111010C",
+          "tipo": "CO"
+        }
+      ]
+    },
+    {
+      "codigo": "203013C",
+      "nombre": "Ética y Política",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "requisitos": []
+    },
+    {
+      "codigo": "111010C",
+      "nombre": "Cálculo I",
+      "creditos": 4,
+      "semestre_sugerido": 2,
+      "requisitos": [
+        {
+          "codigo_materia": "111009C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "111006C",
+      "nombre": "Álgebra Lineal",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "requisitos": [
+        {
+          "codigo_materia": "111009C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "204026C",
+      "nombre": "Inglés con Fines Generales y Académicos II",
+      "creditos": 2,
+      "semestre_sugerido": 2,
+      "requisitos": [
+        {
+          "codigo_materia": "204025C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303017C",
+      "nombre": "Microeconomía II",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "303014C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "111018C",
+          "tipo": "CO"
+        }
+      ]
+    },
+    {
+      "codigo": "750002C",
+      "nombre": "Informática I",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "111006C",
+          "tipo": "PV"
+        }
+      ]
+    },
+    {
+      "codigo": "111018C",
+      "nombre": "Cálculo II",
+      "creditos": 4,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "111010C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "111019C",
+      "nombre": "Estadística I",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "111010C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303022C",
+      "nombre": "Medición Socioeconómica",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "111006C",
+          "tipo": "CO"
+        }
+      ]
+    },
+    {
+      "codigo": "204027C",
+      "nombre": "Inglés con Fines Generales y Académicos III",
+      "creditos": 2,
+      "semestre_sugerido": 3,
+      "requisitos": [
+        {
+          "codigo_materia": "204026C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303010C",
+      "nombre": "Teoría del Bienestar",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "requisitos": [
+        {
+          "codigo_materia": "303017C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303007C",
+      "nombre": "Macroeconomía I",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "requisitos": [
+        {
+          "codigo_materia": "303014C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303022C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "111010C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303026C",
+      "nombre": "Economía Matemática",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "requisitos": [
+        {
+          "codigo_materia": "111018C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "111020C",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "requisitos": [
+        {
+          "codigo_materia": "111019C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "204028C",
+      "nombre": "Inglés con Fines Generales y Académicos IV",
+      "creditos": 2,
+      "semestre_sugerido": 4,
+      "requisitos": [
+        {
+          "codigo_materia": "204027C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303015C",
+      "nombre": "Teoría de Juegos",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "requisitos": [
+        {
+          "codigo_materia": "303017C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303008C",
+      "nombre": "Macroeconomía II",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "requisitos": [
+        {
+          "codigo_materia": "303007C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303009C",
+      "nombre": "Econometría I",
+      "creditos": 4,
+      "semestre_sugerido": 5,
+      "requisitos": [
+        {
+          "codigo_materia": "111020C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "111006C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "750002C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303025C",
+      "nombre": "Ciencias Ambientales",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "requisitos": []
+    },
+    {
+      "codigo": "303038C",
+      "nombre": "Evaluación Socioambiental de Proyectos",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "requisitos": [
+        {
+          "codigo_materia": "303025C",
+          "tipo": "CO"
+        },
+        {
+          "codigo_materia": "303010C",
+          "tipo": "PV"
+        }
+      ]
+    },
+    {
+      "codigo": "303037C",
+      "nombre": "Macroeconomía Dinámica",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "requisitos": [
+        {
+          "codigo_materia": "303008C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303026C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303016C",
+      "nombre": "Econometría II",
+      "creditos": 4,
+      "semestre_sugerido": 6,
+      "requisitos": [
+        {
+          "codigo_materia": "303009C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "201088C",
+      "nombre": "Historia Económica de Colombia",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "requisitos": [
+        {
+          "codigo_materia": "201087C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303007C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303042C",
+      "nombre": "Política Económica",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "requisitos": [
+        {
+          "codigo_materia": "303008C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303011C",
+      "nombre": "Metodología de la Economía",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "requisitos": [
+        {
+          "codigo_materia": "303008C",
+          "tipo": "PA"
+        },
+        {
+          "espacio_curricular_id": "enfoque_plural_i",
+          "tipo": "PA"
+        },
+        {
+          "espacio_curricular_id": "enfoque_plural_ii",
+          "tipo": "PA"
+        },
+        {
+          "espacio_curricular_id": "enfoque_plural_iii",
+          "tipo": "CO"
+        }
+      ]
+    },
+    {
+      "codigo": "303041C",
+      "nombre": "Economía Internacional",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "requisitos": [
+        {
+          "codigo_materia": "303008C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303044C",
+      "nombre": "Seminario de Investigación",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "requisitos": [
+        {
+          "codigo_materia": "303011C",
+          "tipo": "CO"
+        },
+        {
+          "codigo_materia": "303016C",
+          "tipo": "CO"
+        },
+        {
+          "codigo_materia": "204165C",
+          "tipo": "CO"
+        }
+      ]
+    },
+    {
+      "codigo": "204165C",
+      "nombre": "C y P de Textos Disciplinas - Socioecon.",
+      "creditos": 2,
+      "semestre_sugerido": 7,
+      "requisitos": [
+        {
+          "codigo_materia": "204133C",
+          "tipo": "sin_especificar"
+        },
+        {
+          "codigo_materia": "303007C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303045C",
+      "nombre": "Trabajo de Grado I",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "requisitos": [
+        {
+          "codigo_materia": "303044C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303011C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "204165C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303012C",
+      "nombre": "Teoría y Política del Desarrollo",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "requisitos": [
+        {
+          "codigo_materia": "303037C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303011C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303043C",
+      "nombre": "Problemas Colombianos",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "requisitos": [
+        {
+          "codigo_materia": "201088C",
+          "tipo": "PA"
+        },
+        {
+          "codigo_materia": "303008C",
+          "tipo": "PA"
+        }
+      ]
+    },
+    {
+      "codigo": "303046C",
+      "nombre": "Trabajo de Grado II",
+      "creditos": 3,
+      "semestre_sugerido": 9,
+      "requisitos": [
+        {
+          "codigo_materia": "303045C",
+          "tipo": "PV"
+        }
+      ]
+    }
+  ]
+}

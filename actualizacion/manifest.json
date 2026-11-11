@@ -1,0 +1,16 @@
+{
+  "version_esquema": 1,
+  "version_datos": "2026-2-v1",
+  "periodo_academico": "2026-2",
+  "archivos": {
+    "data/programa_economia.json": "programa_economia.json",
+    "data/funcionalidades_app.json": "funcionalidades_app.json",
+    "data/pensum_materias_economia.json": "pensum_materias_economia.json",
+    "data/materias_pendientes_sin_horario.json": "materias_pendientes_sin_horario.json",
+    "data/componentes_formacion_general.json": "componentes_formacion_general.json",
+    "data/reglas_pensum_economia.json": "reglas_pensum_economia.json",
+    "data/oferta_materias_regulares.json": "oferta_materias_regulares.json",
+    "data/catalogo_materias_relleno.json": "catalogo_materias_relleno.json",
+    "data/campus_edificios.json": "campus_edificios.json"
+  }
+}

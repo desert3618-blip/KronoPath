@@ -1,0 +1,241 @@
+{
+  "programa": "economia",
+  "alcance_de_datos": {
+    "usar_datos_actuales": true,
+    "periodo_de_oferta_actual": "2026-2",
+    "implementar_actualizacion_de_oferta": true,
+    "nota": "La oferta académica se carga desde archivos JSON publicados en GitHub Pages; los datos descargados se conservan localmente para uso sin conexión."
+  },
+  "referencias": {
+    "programa_y_creditos": "data/programa_economia.json",
+    "materias_del_pensum": "data/pensum_materias_economia.json",
+    "oferta_y_horarios_regulares": "data/oferta_materias_regulares.json",
+    "pensum_y_requisitos": "data/reglas_pensum_economia.json",
+    "componentes_y_oferta": "data/componentes_formacion_general.json",
+    "espacios_sin_horario": "data/materias_pendientes_sin_horario.json",
+    "notas": "data/reglas_notas.json",
+    "perfiles": "data/reglas_inicio_y_perfiles.json"
+  },
+  "convenciones": {
+    "escala_de_notas": {
+      "minimo": 0,
+      "maximo": 5,
+      "nota_aprobatoria": 3
+    },
+    "creditos_del_programa": 149,
+    "intervalos_horarios": "Intervalos semiabiertos [inicio, fin): dos clases que se tocan exactamente en el límite no se consideran cruzadas.",
+    "materias_de_relleno": "Pueden aparecer como opciones para completar el horario, pero no cuentan para los créditos ni el porcentaje de avance de Economía."
+  },
+  "funcionalidades": [
+    {
+      "id": 1,
+      "nombre": "Gestión del historial académico",
+      "reglas": [
+        "Guardar cada intento de una materia por separado, con perfil y período académico.",
+        "Permitir los estados aprobada, reprobada y en_curso.",
+        "La nota final es opcional para los intentos previos; si se registra, debe estar entre 0 y 5.",
+        "Una nota final igual o superior a 3 significa aprobada; una nota inferior a 3 significa reprobada.",
+        "Conservar el intento reprobado cuando el estudiante repita la materia.",
+        "Mostrar por separado créditos intentados y créditos aprobados que aportan al pensum.",
+        "Contar los créditos de una materia regular una sola vez cuando exista al menos un intento aprobado.",
+        "Los intentos en curso o reprobados no aportan créditos aprobados al progreso.",
+        "Los créditos de materias de relleno no aportan al progreso de Economía.",
+        "Un espacio curricular especial aporta como máximo sus 3 créditos asignados y solo cuando esté aprobado."
+      ],
+      "criterios_de_aceptacion": [
+        "El usuario puede guardar un intento aprobado o reprobado sin nota.",
+        "Una repetición aparece como un nuevo intento y no borra el anterior.",
+        "Dos intentos de la misma materia no duplican los créditos aprobados del pensum."
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cálculo automático del avance académico",
+      "formula": {
+        "creditos_aprobados_del_pensum": "Suma de créditos curriculares aprobados, contando cada materia regular una sola vez y cada espacio especial hasta su tope curricular.",
+        "porcentaje_de_avance": "min(creditos_aprobados_del_pensum / 149 * 100, 100)"
+      },
+      "reglas": [
+        "Usar 149 como total de créditos requeridos para graduarse.",
+        "Excluir créditos reprobados, en curso y de relleno.",
+        "No contar un espacio especial por agregarlo al horario ni por tener notas parciales; solo contar cuando se apruebe.",
+        "Mostrar créditos aprobados y porcentaje, con redondeo visual a un decimal sin redondear los datos internos.",
+        "No sumar dos veces los créditos de materias repetidas ni de espacios especiales repetidos."
+      ],
+      "criterios_de_aceptacion": [
+        "Con 75 créditos curriculares aprobados se muestra 50.3% de avance.",
+        "El porcentaje nunca supera 100%.",
+        "Agregar una materia de relleno no cambia el avance."
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Detección y resolución de cruces de horario",
+      "deteccion": {
+        "clave_de_comparacion": [
+          "día",
+          "intervalo horario"
+        ],
+        "regla_de_traslape": "Dos sesiones del mismo día se cruzan si inicioA < finB y inicioB < finA.",
+        "unidades_de_comparacion": "Comparar todas las sesiones de todos los grupos seleccionados, incluyendo las sesiones de varios días de un mismo grupo.",
+        "limite_compartido": "Una sesión que termina a las 10:00 y otra que empieza a las 10:00 no se cruzan."
+      },
+      "resolucion": [
+        "Señalar las dos materias, grupos, día y horas que se cruzan.",
+        "Para un curso ya elegido, sugerir primero otros grupos ofertados de ese mismo curso que no generen cruces.",
+        "Si no hay otro grupo compatible, mostrar alternativas de materias o combinaciones, explicando qué selección debe cambiarse.",
+        "No cambiar ni eliminar selecciones del usuario sin confirmación.",
+        "Los espacios pendientes sin horario aparecen en su pestaña especial y nunca producen cruces.",
+        "Un grupo sin horario publicado no puede validarse como libre de cruces."
+      ],
+      "criterios_de_aceptacion": [
+        "Detecta sesiones traslapadas en el mismo día.",
+        "No reporta cruce cuando una sesión empieza exactamente al terminar la otra.",
+        "Al cambiar a un grupo alternativo sin traslapes, el conflicto desaparece."
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Priorización por ruta crítica",
+      "definiciones": {
+        "grafo": "Cada materia o espacio curricular es un nodo. Los requisitos PA, PV y CO definidos en el pensum conservan su tipo y generan relaciones hacia la materia que depende de ellos.",
+        "materias_pendientes": "Materias del pensum que el perfil todavía no ha aprobado, excluyendo materias de relleno y espacios ya aprobados.",
+        "descendiente": "Materia pendiente que depende directa o indirectamente de otra materia según las relaciones explícitas del pensum. Para contar desbloqueos por aprobación se consideran requisitos PA y PV; un requisito CO solo se considera resoluble mediante una propuesta de matrícula conjunta en el mismo período."
+      },
+      "priorizacion": [
+        "Recomendar primero materias pendientes que el perfil pueda cursar legalmente en el período.",
+        "Entre las elegibles, priorizar la materia que habilita el mayor número de materias pendientes posteriores.",
+        "Calcular el número de materias posteriores alcanzables sin contarlas más de una vez.",
+        "En empate, priorizar la materia sugerida en el semestre más antiguo y luego mostrar las demás empatadas.",
+        "Si una materia tiene un requisito sin tipo explícito o una regla aún por definir, indicar que requiere verificación y no asumir que es elegible.",
+        "Un corequisito (CO) se satisface matriculando ambos cursos en el mismo período; no se interpreta como una aprobación previa ni como una materia desbloqueada por aprobar primero su corequisito.",
+        "Si una opción futura depende de un corequisito, presentarla como una combinación que requiere matrícula conjunta y contarla como desbloqueo solo dentro de esa propuesta."
+      ],
+      "alerta_preventiva": {
+        "aplica_a": "Materia en_curso que desbloquea al menos una materia pendiente.",
+        "riesgo_actual": "La nota necesaria para aprobar supera 5, o la máxima nota final alcanzable con el porcentaje restante es menor que 3.",
+        "mensaje": "Advertir que reprobar esta materia puede retrasar las materias dependientes; mostrar cuántas materias posteriores afecta y la nota necesaria para aprobar.",
+        "no_declarar_riesgo_irrecuperable": "Si el promedio actual es menor que 3 pero todavía es posible alcanzar 3, mostrar la nota necesaria, sin afirmar que ya es imposible aprobar."
+      },
+      "criterios_de_aceptacion": [
+        "Una materia elegible que desbloquea varias materias se muestra por delante de otra sin dependientes, salvo empate según las reglas.",
+        "Una materia con PA incumplido no se presenta como matriculable.",
+        "Una alerta de riesgo solo se considera imposible cuando ni una nota máxima de 5 en lo restante permite alcanzar 3."
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Modo Sin Huecos",
+      "objetivo": "Reducir los minutos desocupados entre la primera y la última clase de cada día.",
+      "reglas": [
+        "Solo considerar grupos elegibles y sin cruces.",
+        "Calcular huecos diarios como los intervalos libres entre clases consecutivas; no contar el tiempo anterior a la primera clase ni posterior a la última.",
+        "Preferir, en este orden, menos minutos totales de huecos y menos días con huecos.",
+        "No alterar materias seleccionadas sin aprobación del usuario.",
+        "Si no existe una combinación sin huecos, mostrar la opción compatible más cercana e indicar los huecos que conserva."
+      ],
+      "criterios_de_aceptacion": [
+        "Entre dos horarios sin cruces, se prefiere el de menos minutos libres entre clases.",
+        "El modo no añade espacios sin horario al cálculo ni genera conflictos."
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Modo Días Libres",
+      "objetivo": "Concentrar las clases en 3 o 4 días para dejar 1 o 2 días completos libres.",
+      "reglas": [
+        "Permitir al usuario elegir una meta de 3 o 4 días activos; el valor predeterminado es 4.",
+        "Priorizar horarios con días activos dentro de la meta y luego el menor número de días activos.",
+        "Un día es libre solo si no contiene ninguna sesión seleccionada.",
+        "No descartar la elegibilidad académica ni aceptar cruces para satisfacer la meta.",
+        "Si la oferta o las materias seleccionadas hacen imposible la meta, mostrar la alternativa más cercana y el motivo.",
+        "No prometer 1 o 2 días libres cuando las sesiones obligatorias lo impidan."
+      ],
+      "criterios_de_aceptacion": [
+        "El modo cuenta los días distintos que tienen al menos una sesión.",
+        "Muestra explícitamente cuáles días quedan completamente libres.",
+        "Nunca prefiere un horario con cruces por tener más días libres."
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Modos Madrugador y Nocturno",
+      "franjas_predeterminadas": {
+        "madrugador": {
+          "inicio": "06:00",
+          "fin": "12:00"
+        },
+        "nocturno": {
+          "inicio": "18:00",
+          "fin": "22:00"
+        }
+      },
+      "reglas": [
+        "Tratar las franjas como preferencias de organización, no como requisitos académicos.",
+        "Por defecto, preferir grupos cuyas sesiones ocurran dentro de la franja seleccionada.",
+        "Permitir modo estricto para excluir grupos fuera de la franja cuando el usuario lo solicite.",
+        "Si el modo estricto deja una materia sin opciones, indicarlo y permitir ampliar o desactivar el filtro.",
+        "Permitir modificar las franjas en el modo Personalizado.",
+        "Excluir grupos sin horario publicado de las recomendaciones por franja."
+      ],
+      "criterios_de_aceptacion": [
+        "Un grupo completamente dentro de la franja obtiene prioridad sobre uno fuera de ella.",
+        "El modo estricto no cambia el historial ni los requisitos de matrícula.",
+        "El usuario puede ajustar límites horarios sin cambiar los valores predeterminados globales."
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Promedio proyectado y nota necesaria para aprobar",
+      "promedio_proyectado": {
+        "entradas": "Evaluaciones con nombre, porcentaje y estado calificada o pendiente; una nota entre 0 y 5 se requiere solo para las calificadas.",
+        "porcentaje_evaluado": "Suma de porcentajes de las evaluaciones calificadas.",
+        "aporte_ponderado": "Suma de nota * porcentaje / 100 para evaluaciones calificadas.",
+        "promedio_provisional": "aporte_ponderado / (porcentaje_evaluado / 100), cuando el porcentaje evaluado es mayor que cero.",
+        "promedio_final": "aporte_ponderado cuando el 100% de la ponderación está calificada.",
+        "validaciones": [
+          "Si la suma de porcentajes de todas las evaluaciones supera 100%, advertir y no calcular.",
+          "Si falta porcentaje por asignar o calificar, llamar al resultado promedio provisional, indicar el porcentaje evaluado y el aporte al curso; no llamarlo nota final.",
+          "Si no hay evaluaciones calificadas, indicar que todavía no existe promedio provisional.",
+          "Validar cada ponderación entre 0 y 100 y cada nota ingresada entre 0 y 5."
+        ]
+      },
+      "nota_necesaria": {
+        "independiente_del_promedio_proyectado": true,
+        "nota_acumulada": "Aporte ponderado que ya suman las evaluaciones calificadas a la nota final del curso.",
+        "porcentaje_restante": "100 - porcentaje_evaluado.",
+        "formula": "(3 - nota_acumulada) / (porcentaje_restante / 100), cuando exista porcentaje restante y la nota acumulada sea menor que 3.",
+        "resultados": [
+          "Si la nota acumulada es al menos 3, indicar que ya alcanzó el mínimo y necesita 0 en lo restante.",
+          "Si no queda porcentaje y la nota acumulada es menor que 3, indicar que no es posible aprobar con evaluaciones restantes.",
+          "Si la nota necesaria supera 5, indicar que aprobar ya no es matemáticamente posible.",
+          "Si la nota necesaria está entre 0 y 5, mostrarla para el total del porcentaje no calificado, incluidas evaluaciones pendientes conocidas y porcentaje aún sin asignar."
+        ]
+      },
+      "alerta_de_materia_de_ruta": "Si una materia en curso de ruta crítica todavía puede aprobarse pero la nota necesaria es alta, mostrar una advertencia preventiva con la nota requerida y las materias dependientes. Si la nota necesaria supera 5, indicar que el resultado es irrecuperable con la ponderación restante.",
+      "criterios_de_aceptacion": [
+        "Con nota 3 al 25% calificado, el promedio provisional es 3, el aporte es 0.75 y el porcentaje restante para la nota necesaria es 75%.",
+        "Con notas 4 al 25%, 3 al 40% y 2.5 al 35%, el promedio final es 3.075.",
+        "Si los porcentajes suman 110%, aparece advertencia y no se calcula el promedio.",
+        "Con aporte acumulado 0.5 y 80% evaluado, se necesita 12.5 en el 20% restante y se informa que aprobar es imposible."
+      ]
+    }
+  ],
+  "modos_de_organizacion": {
+    "disponibles": [
+      "sin_huecos",
+      "dias_libres",
+      "madrugador",
+      "nocturno",
+      "personalizado"
+    ],
+    "modo_personalizado": {
+      "descripcion": "El estudiante puede definir preferencias y prioridades propias, como días preferidos o excluidos, franjas horarias, cantidad máxima de días activos y peso relativo de reducir huecos.",
+      "restricciones_no_negociables": [
+        "No recomendar cruces como horario válido.",
+        "No omitir requisitos PA, PV o CO.",
+        "Mostrar cuándo una preferencia no puede cumplirse con la oferta actual."
+      ]
+    }
+  }
+}

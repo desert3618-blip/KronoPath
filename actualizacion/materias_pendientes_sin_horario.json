@@ -1,0 +1,167 @@
+{
+  "programa": "economia",
+  "tipo": "espacios_curriculares_pendientes",
+  "descripcion": "Espacios del pensum que todavía no tienen un catálogo de materias concretas configurado. Se pueden agregar al plan del semestre y registrar sus notas, pero no tienen sesiones, grupos ni salones.",
+  "reglas": {
+    "ubicacion_en_app": "pestana_materias_sin_horario",
+    "permitir_agregar_al_plan_del_semestre": true,
+    "permitir_registro_de_notas": true,
+    "configuracion_notas": "data/reglas_notas.json",
+    "grupo_horario": null,
+    "sesiones": [],
+    "conflictos_de_horario": "No generan ni resuelven cruces porque no tienen horas asignadas.",
+    "optimizacion": "No recomendar como grupo compatible ni incluir en el puntaje de optimización horaria; conservarlos visibles en la pestaña especial.",
+    "catalogo_de_materias_concretas": "Pendiente de definir; no presentar el espacio provisional como una asignatura o grupo ofertado por la universidad.",
+    "progreso_carrera": "Los 3 créditos curriculares del espacio se cuentan una sola vez cuando el espacio figure aprobado. No contar créditos por agregarlo al plan ni por registrar notas parciales."
+  },
+  "materias": [
+    {
+      "id": "enfoque_plural_i",
+      "nombre": "Enfoque Plural I",
+      "categoria_pensum": "enfoque_plural",
+      "semestre_sugerido": 4,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [
+        {
+          "materia": "Teoría Social",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Ética y Política",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Microeconomía II",
+          "tipo": "PV"
+        }
+      ],
+      "elegible_para_planificar": "Solo cuando se cumplan los requisitos PA y PV indicados.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "enfoque_plural_ii",
+      "nombre": "Enfoque Plural II",
+      "categoria_pensum": "enfoque_plural",
+      "semestre_sugerido": 5,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [
+        {
+          "materia": "Teoría Social",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Ética y Política",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Microeconomía II",
+          "tipo": "PV"
+        }
+      ],
+      "elegible_para_planificar": "Solo cuando se cumplan los requisitos PA y PV indicados.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "enfoque_plural_iii",
+      "nombre": "Enfoque Plural III",
+      "categoria_pensum": "enfoque_plural",
+      "semestre_sugerido": 6,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [
+        {
+          "materia": "Teoría Social",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Ética y Política",
+          "tipo": "PA"
+        },
+        {
+          "materia": "Macroeconomía I",
+          "tipo": "PA"
+        }
+      ],
+      "elegible_para_planificar": "Solo cuando se cumplan todos los requisitos PA indicados.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "electiva_profesional_i",
+      "nombre": "Electiva Profesional I",
+      "categoria_pensum": "electiva_profesional",
+      "semestre_sugerido": 7,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [],
+      "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional",
+      "elegible_para_planificar": "Se puede agregar como espacio provisional al plan; validar la matrícula real cuando se definan sus requisitos y materias disponibles.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "electiva_profesional_ii",
+      "nombre": "Electiva Profesional II",
+      "categoria_pensum": "electiva_profesional",
+      "semestre_sugerido": 8,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [],
+      "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional",
+      "elegible_para_planificar": "Se puede agregar como espacio provisional al plan; validar la matrícula real cuando se definan sus requisitos y materias disponibles.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "electiva_profesional_iii",
+      "nombre": "Electiva Profesional III",
+      "categoria_pensum": "electiva_profesional",
+      "semestre_sugerido": 9,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [],
+      "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional",
+      "elegible_para_planificar": "Se puede agregar como espacio provisional al plan; validar la matrícula real cuando se definan sus requisitos y materias disponibles.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    },
+    {
+      "id": "electiva_profesional_iv",
+      "nombre": "Electiva Profesional IV",
+      "categoria_pensum": "electiva_profesional",
+      "semestre_sugerido": 9,
+      "creditos_curriculares": 3,
+      "estado": "pendiente_de_configuracion",
+      "requisitos": [],
+      "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional",
+      "elegible_para_planificar": "Se puede agregar como espacio provisional al plan; validar la matrícula real cuando se definan sus requisitos y materias disponibles.",
+      "horario": {
+        "estado": "sin_horario_asignado",
+        "sesiones": []
+      },
+      "registro_notas_habilitado": true
+    }
+  ]
+}

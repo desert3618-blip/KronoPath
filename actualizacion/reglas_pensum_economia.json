@@ -1,0 +1,239 @@
+{
+  "programa": "economia",
+  "fuentes": {
+    "pensum": "../materias/Pensum_Economia_actualizado.xlsx",
+    "materias_y_oferta": "../materias/Materias_Pensum_Economia_Actualizado.xlsx",
+    "oferta_y_horarios_regulares": "../materias/Materias_Pensum_Economia_Actualizado.xlsx"
+  },
+  "creditos": {
+    "requeridos_para_graduarse": 149,
+    "materias_regulares": 116,
+    "espacios_curriculares_especiales": 33,
+    "validacion": "La suma de los créditos del pensum debe ser 149."
+  },
+  "reglas_requisitos": {
+    "todos_los_requisitos_listados_son_obligatorios": true,
+    "PA": {
+      "nombre": "Prerequisito aprobado",
+      "regla": "La materia requisito debe figurar como aprobada en el historial académico."
+    },
+    "CO": {
+      "nombre": "Corequisito",
+      "regla": "La materia requisito debe estar matriculada en el mismo período académico."
+    },
+    "PV": {
+      "nombre": "Prerequisito visto",
+      "regla": "La materia requisito debe haber sido cursada y tener un intento registrado; puede estar aprobada o reprobada."
+    },
+    "requisito_sin_tipo_explicito": {
+      "regla": "Conservar el requisito como pendiente de aclaración. No inferir PA, CO ni PV ni decidir automáticamente la elegibilidad basándose en una interpretación inventada."
+    }
+  },
+  "espacios_especiales": {
+    "regla": "Son requisitos del pensum, no materias de relleno. Cada espacio cuenta para el avance de la carrera una sola vez cuando se complete con una materia válida y aprobada.",
+    "creditos_por_espacio": 3,
+    "opciones_por_definir": true,
+    "opciones_pendientes": {
+      "catalogo": "materias_pendientes_sin_horario.json",
+      "descripcion": "Por ahora Enfoques Plurales y Electivas Profesionales se representan como espacios provisionales del pensum, sin catálogo de materias concretas."
+    },
+    "categorias": [
+      {
+        "id": "enfoque_plural_i",
+        "nombre": "Enfoque Plural I",
+        "semestre_sugerido": 4,
+        "creditos": 3,
+        "requisitos_fuente": [
+          {
+            "materia": "Teoría Social",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Ética y Política",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Microeconomía II",
+            "tipo": "PV"
+          }
+        ]
+      },
+      {
+        "id": "enfoque_plural_ii",
+        "nombre": "Enfoque Plural II",
+        "semestre_sugerido": 5,
+        "creditos": 3,
+        "requisitos_fuente": [
+          {
+            "materia": "Teoría Social",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Ética y Política",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Microeconomía II",
+            "tipo": "PV"
+          }
+        ]
+      },
+      {
+        "id": "enfoque_plural_iii",
+        "nombre": "Enfoque Plural III",
+        "semestre_sugerido": 6,
+        "creditos": 3,
+        "requisitos_fuente": [
+          {
+            "materia": "Teoría Social",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Ética y Política",
+            "tipo": "PA"
+          },
+          {
+            "materia": "Macroeconomía I",
+            "tipo": "PA"
+          }
+        ]
+      },
+      {
+        "id": "formacion_social_y_ciudadana",
+        "nombre": "Formación Social y Ciudadana",
+        "semestre_sugerido": 2,
+        "creditos": 3,
+        "requisitos_fuente": []
+      },
+      {
+        "id": "estilos_de_vida_saludable",
+        "nombre": "Formación en Estilos de Vida Saludable",
+        "semestre_sugerido": 5,
+        "creditos": 3,
+        "requisitos_fuente": []
+      },
+      {
+        "id": "formacion_cientifico_tecnologica",
+        "nombre": "Formación Científico-Tecnológica",
+        "semestre_sugerido": 6,
+        "creditos": 3,
+        "requisitos_fuente": []
+      },
+      {
+        "id": "electiva_profesional_i",
+        "nombre": "Electiva Profesional I",
+        "semestre_sugerido": 7,
+        "creditos": 3,
+        "requisitos_fuente": [],
+        "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional"
+      },
+      {
+        "id": "formacion_artistico_y_humanistico",
+        "nombre": "Formación Artístico y Humanístico",
+        "semestre_sugerido": 8,
+        "creditos": 3,
+        "requisitos_fuente": []
+      },
+      {
+        "id": "electiva_profesional_ii",
+        "nombre": "Electiva Profesional II",
+        "semestre_sugerido": 8,
+        "creditos": 3,
+        "requisitos_fuente": [],
+        "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional"
+      },
+      {
+        "id": "electiva_profesional_iii",
+        "nombre": "Electiva Profesional III",
+        "semestre_sugerido": 9,
+        "creditos": 3,
+        "requisitos_fuente": [],
+        "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional"
+      },
+      {
+        "id": "electiva_profesional_iv",
+        "nombre": "Electiva Profesional IV",
+        "semestre_sugerido": 9,
+        "creditos": 3,
+        "requisitos_fuente": [],
+        "requisito_textual_pendiente_de_definicion": "Requisitos de la electiva profesional"
+      }
+    ]
+  },
+  "materias_pendientes_sin_horario": {
+    "catalogo": "materias_pendientes_sin_horario.json",
+    "pestana": "Materias sin horario",
+    "reglas": {
+      "agregar_al_plan_del_semestre": true,
+      "no_asignar_grupo_ni_sesiones": true,
+      "no_generar_conflictos_horarios": true,
+      "excluir_del_puntaje_de_optimizacion_horaria": true,
+      "registro_de_notas": {
+        "habilitado": true,
+        "usar_reglas": "reglas_notas.json",
+        "guardar_por_materia_y_periodo": true,
+        "calculadoras_disponibles": [
+          "promedio_provisional_y_final",
+          "nota_necesaria_para_aprobar"
+        ]
+      },
+      "avance_academico": "El espacio aporta hasta sus 3 créditos curriculares al avance una sola vez cuando su nota final sea aprobatoria (>= 3). Planificarlo, registrar notas parciales o aprobarlo más de una vez no debe duplicar los créditos del pensum.",
+      "electivas_profesionales": "Mantener los requisitos de matrícula real pendientes de definición; permitir su planificación provisional sin presentarlas como elegibles para matrícula oficial.",
+      "enfoques_plurales": "Aplicar los requisitos PA y PV existentes antes de ofrecer el espacio para agregar al plan."
+    }
+  },
+  "seleccion_componentes": {
+    "catalogo": "componentes_formacion_general_2026_2.json",
+    "vigencia_oferta": "La oferta y los horarios corresponden al período académico 2026-2; se deben reemplazar o importar por período sin alterar el pensum ni el historial académico.",
+    "reglas": {
+      "opciones_visibles": "Mostrar todas las materias del componente seleccionado, con créditos, grupos, horarios y salones disponibles en el período.",
+      "seleccion_manual": "El estudiante puede escoger cualquier materia disponible que pertenezca al componente del requisito.",
+      "seleccion_automatica": "Si el estudiante activa una sugerencia, comparar los grupos ofertados de las materias del componente con el horario armado y recomendar la opción compatible que mejor se ajuste al modo de organización seleccionado.",
+      "modos_compatibles": [
+        "sin_huecos",
+        "dias_libres",
+        "madrugador",
+        "nocturno",
+        "personalizado"
+      ],
+      "modo_personalizado": "Usar los criterios y preferencias configurados por el estudiante en su modo personalizado.",
+      "uso_en_semestre_actual": "Cuando un requisito de componente corresponda al semestre sugerido actual y siga pendiente, permitir mostrar su catálogo y recomendar una opción sin obligar al estudiante a aceptar la recomendación.",
+      "conflictos": "No recomendar como compatible un grupo que se cruce con una clase del horario actual; se pueden mostrar alternativas con conflicto claramente identificadas.",
+      "sin_horario_publicado": "Mostrar la materia, pero indicar que no tiene horario publicado y no considerarla una opción automáticamente compatible.",
+      "empates": "Si varias opciones tienen el mismo ajuste, mostrar las opciones empatadas para que el estudiante decida."
+    },
+    "componentes": [
+      {
+        "id": "cientifico_tecnologico",
+        "nombre": "Científico Tecnológico",
+        "espacio_pensum": "formacion_cientifico_tecnologica"
+      },
+      {
+        "id": "formacion_social_y_ciudadana",
+        "nombre": "Formación Social y Ciudadana",
+        "espacio_pensum": "formacion_social_y_ciudadana"
+      },
+      {
+        "id": "artistico_y_humanistico",
+        "nombre": "Artístico y Humanístico",
+        "espacio_pensum": "formacion_artistico_y_humanistico"
+      },
+      {
+        "id": "estilos_de_vida_saludable",
+        "nombre": "Estilos de Vida Saludable",
+        "espacio_pensum": "estilos_de_vida_saludable"
+      },
+      {
+        "id": "lenguaje_y_comunicacion",
+        "nombre": "Lenguaje y Comunicación",
+        "espacio_pensum": null,
+        "nota": "El catálogo se conserva y puede consultarse, pero el pensum cargado no tiene un espacio de componente con este nombre."
+      }
+    ],
+    "contabilizacion_creditos": {
+      "creditos_del_espacio_en_pensum": 3,
+      "creditos_de_la_materia_elegida": "Guardar los créditos reales de la materia ofertada. El avance del pensum se atribuye al espacio curricular, no se debe contar dos veces ni superar sus créditos asignados.",
+      "limite_por_espacio": "Cada requisito de componente puede aportar como máximo 3 créditos al cumplimiento del pensum."
+    }
+  }
+}

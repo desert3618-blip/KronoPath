@@ -1,0 +1,5992 @@
+{
+  "categoria": "materias_relleno",
+  "descripcion": "Materias electivas que pueden usarse para ocupar espacios del horario, pero no cuentan para el progreso de la carrera de Economía.",
+  "fuente": {
+    "archivo": "../materias/Materias_electivas.csv",
+    "columnas": {
+      "nombre": "Materia",
+      "codigo": "Código",
+      "creditos": "Créditos"
+    },
+    "cantidad_registros_verificada": 172,
+    "campos_importados": [
+      "Materia",
+      "Código",
+      "Créditos",
+      "Horario grupo N",
+      "Ubicación grupo N"
+    ],
+    "cantidad_grupos_verificada": 287,
+    "cantidad_sesiones_importadas": 319,
+    "grupos_sin_horario": 2,
+    "sesiones_repetidas_eliminadas": 1
+  },
+  "reglas": {
+    "clasificar_todas_las_materias_de_la_fuente_como": "relleno",
+    "pueden_mostrarse_como_opcion_de_horario": true,
+    "creditos_cuentan_para_progreso_carrera": false,
+    "creditos_se_suman_al_avance_academico": false,
+    "incluir_en_numerador_del_porcentaje_de_avance": false,
+    "incluir_en_recomendaciones_de_materias_pendientes_del_pensum": false,
+    "incluir_en_el_selector_del_horario": true,
+    "horarios_no_publicados_se_muestran_como_compatibles": false
+  },
+  "periodo_de_oferta": "2026-2",
+  "nota_de_alcance": "El CSV restaurado incluye nombres, códigos, créditos y grupos; se conservan explícitamente las filas sin horario y las ubicaciones no especificadas. Las ubicaciones solo incluyen edificio y salón cuando pueden identificarse, para excluir otros datos presentes en algunas celdas.",
+  "materias": [
+    {
+      "codigo": "102061C",
+      "nombre": "ÉTICA Y RESPONSABILIDAD SOCIAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sala 5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "102114C",
+      "nombre": "INSECTOS Y SOCIEDAD",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1058"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "106013C",
+      "nombre": "SEMINARIO DE CIENCIAS EN INGLÉS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2025"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "106033C",
+      "nombre": "SEMIN. DE LECTURA Y ESCRITURA CIENTÍFICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2013"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "106036C",
+      "nombre": "NORMATIVIDAD Y ÉTICA PROFESIONAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "106056C",
+      "nombre": "PREPARACIÓN PARA LA VIDA PROFESIONAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111055C",
+      "nombre": "GEOMETRÍA FUNDAMENTAL",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "116019C",
+      "nombre": "INTRODUCCIÓN A LAS TECNOLOGÍAS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "15:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sala 2"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sala 2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "116066C",
+      "nombre": "CONSTITUCIÓN POL. COLOMBIANA CIENCIAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "Sal?n 2001"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "202006M",
+      "nombre": "LITERATURA Y CULTURA BRASILEÑA I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "202081M",
+      "nombre": "PORTUGUÉS Y CULTURA BRASILEÑA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "203012C",
+      "nombre": "ESPAÑOL Y COMUNICACIÓN I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "203027C",
+      "nombre": "ESPAÑOL Y COMUNICACIÓN II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2003"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "203468M",
+      "nombre": "LATÍN I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204024C",
+      "nombre": "LECTURA CRÍTICA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2015"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2017"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1015"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC3"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "6",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "7",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "8",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204076",
+      "nombre": "LENGUAJE Y CULTURA",
+      "creditos": 4,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "D8",
+                "salon": "Sal?n 2006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204146C",
+      "nombre": "ALEMÁN CON FINES GENERALES Y ACADÉMIC. I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3008"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3008"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1027"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "Sal?n 1002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204147C",
+      "nombre": "ALEMÁN CON FINES GENERALES Y ACADÉM. II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1007"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1007"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204148C",
+      "nombre": "ALEMÁN CON FINES GENERALES Y ACADÉM. III",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3005"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204149C",
+      "nombre": "ALEMÁN CON FINES GENERALES Y ACADÉM. IV",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3007"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204150C",
+      "nombre": "FRANCÉS CON FINES GENERALES Y ACADÉM. I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2001"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC4"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1025"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204154C",
+      "nombre": "INGLÉS CON FINES GENERALES Y ACADÉMIC. V",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204156C",
+      "nombre": "PORTUGUÉS CON FINES GENERALES Y ACAD. I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1009"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1005"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2025"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1015"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1009"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204157C",
+      "nombre": "PORTUGUÉS CON FINES GENERALES Y ACAD. II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1003"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sala 1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1027"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204158C",
+      "nombre": "PORTUGUÉS CON FINES GENERALES Y ACAD III",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2015"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204159C",
+      "nombre": "PORTUGUÉS FINES GENERALES Y ACADÉMIC. IV",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204161C",
+      "nombre": "C Y P TEXTOS DISCIPLINAS - SALUD Y PSIC.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2116"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204163C",
+      "nombre": "C Y P TEXT. DISCIPLINAS DERECHO Y ADMON.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204164C",
+      "nombre": "C Y P TEXTOS DISCIPLINAS CIENCIAS NATUR.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1003"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2106"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204166C",
+      "nombre": "C Y P TEXTOS DISC. - EDUC, ART Y HUMAN.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2116"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC4"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC2"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2116"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204168C",
+      "nombre": "ITALIANO I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1027"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204170C",
+      "nombre": "JAPONÉS I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "13:00",
+              "hora_fin": "15:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 2004"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "13:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 2004"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204171C",
+      "nombre": "JAPONÉS II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "13:00",
+              "hora_fin": "15:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 2004"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "13:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 2004"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204173C",
+      "nombre": "LENGUA DE SEÑAS COLOMBIANA BÁSICO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2019"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204190M",
+      "nombre": "LECTURA EN INGLÉS II LE",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "13:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E17",
+                "salon": "Sal?n 3006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204270M",
+      "nombre": "NASA YUWE I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "207095M",
+      "nombre": "DESPLAZAMIENTO FORZADO EN COLOMBIA (E)",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1011"
+              }
+            },
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "208004M",
+      "nombre": "INTRODUCC. AL ESTUDIO DEL MEDIO AMBIENTE",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "21:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303020C",
+      "nombre": "FUNDAMENTOS DE ECONOMÍA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1052"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "304012C",
+      "nombre": "CIENCIAS SOCIALES I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n AC3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "402025",
+      "nombre": "ELECTIVA I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403106M",
+      "nombre": "POLÍTICA Y COMUNICACIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2115"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403144M",
+      "nombre": "PROCESOS DE INTEGRACIÓN REGIONAL",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2105"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403154M",
+      "nombre": "TERRIT.,CONFLIC, Y JURISD. ESP. INDÍGENA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403162M",
+      "nombre": "APROX. POLÍTICA A LA TEORÍA DEL DELITO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2111"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403170M",
+      "nombre": "EDUCACIÓN INTEGRAL Y FORMACIÓN POLÍTICA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2106"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "403188M",
+      "nombre": "EDUCACIÓN Y CULTURA PARA LA PAZ",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2103"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "404002C",
+      "nombre": "DEPORTE Y SALUD",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "6",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "7",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "8",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "9",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "10",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "11",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "12",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "13",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "14",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "15",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "16",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "17",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "18",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "19",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "20",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "21",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "22",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "23",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "15:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "24",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "15:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "25",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "26",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "27",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "28",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "29",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "30",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "31",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "32",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "33",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "34",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "35",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "36",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "37",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "38",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "39",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "40",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "404211M",
+      "nombre": "TALLER DE ORIGAMI",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": "D4",
+                "salon": "Sal?n 2023"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": "D4",
+                "salon": "Sal?n 2017"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": "D4",
+                "salon": "Sal?n 2017"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "405126M",
+      "nombre": "HERRAMIENTAS PARA HABLAR EN PÚBLICO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1025"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "415008C",
+      "nombre": "TALLER DE LECTURA Y ESCRITURA I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "415009C",
+      "nombre": "TALLER DE LECTURA Y ESCRITURA II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "415048C",
+      "nombre": "LENG. NARRATIVO Y EXPRES. LÚDICO TEATRAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E37",
+                "salon": "Sal?n AUD1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "416009C",
+      "nombre": "ARGUMENTOS Y TEXTOS ACADÉMICOS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2027"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "416010C",
+      "nombre": "TALLER MULTIMODAL",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1013"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "417041C",
+      "nombre": "RELACIÓN ARTE Y CIENCIA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501023C",
+      "nombre": "DIBUJO A MANO ALZADA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "D1",
+                "salon": "Sal?n 1010"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501024C",
+      "nombre": "FORMAS MÚLTIPLES DE EXPRESIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "D1",
+                "salon": "Sal?n 1009"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501025C",
+      "nombre": "INTRODUCCIÓN A LA ACÚSTICA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "D1",
+                "salon": "Sal?n 3006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501026C",
+      "nombre": "INTRODUCCIÓN A LA ILUMINACIÓN Y EL COLOR",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501027C",
+      "nombre": "LEGISLAC.AMB.Y URBANA- CONST.POLÍTICA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "D1",
+                "salon": "Sal?n 2010"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "501041C",
+      "nombre": "TEORÍA DEL COLOR",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504061C",
+      "nombre": "EXPRESIÓN ORAL Y RETÓRICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "15:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 2015"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504069C",
+      "nombre": "MEDITACIÓN EN MOVIMIENTO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 2025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504094M",
+      "nombre": "TALLER DE TEATRO",
+      "creditos": 4,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1018"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1018"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504105M",
+      "nombre": "ENERGÍA Y MOVIMIENTO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 3006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504183M",
+      "nombre": "TALLER CORPORAL DE DANZA CONTEMPORÁNEA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 2025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504197M",
+      "nombre": "ACTUACIÓN, CINE Y REALIDAD",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1018"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504209M",
+      "nombre": "TALLER DE JUEGOS CON ESPADAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504211M",
+      "nombre": "TEATRO Y SENSACIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1018"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504213M",
+      "nombre": "DESARROLLO PERSONAL A TRAVÉS DEL CUERPO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 2025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "504214M",
+      "nombre": "DANZA AFROCONTEMPORÁNEA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 2025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505001C",
+      "nombre": "APRENDAMOS BRAILLE",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 3019"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 3019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505069C",
+      "nombre": "HISTORIA DE LA MÚSICA LATINOAMERICANA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 1016"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505082C",
+      "nombre": "HISTORIA DE LA MÚSICA EN COLOMBIA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 1005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505132C",
+      "nombre": "GUITARRA DE ACOMPAÑAMIENTO I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 3016"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 3016"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505133C",
+      "nombre": "GUITARRA DE ACOMPAÑAMIENTO II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E15",
+                "salon": "Sal?n 3016"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505134C",
+      "nombre": "EDICIÓN DE PARTITURAS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "D5",
+                "salon": "Sala 7"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "D5",
+                "salon": "Sala 7"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "D5",
+                "salon": "Sala 7"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505150C",
+      "nombre": "TALLER DE PERCUSIÓN TRAD. COLOMBIANA I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "505151C",
+      "nombre": "TALLER DE PERCUSIÓN TRAD. COLOMBIANA II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "507048C",
+      "nombre": "PROD. INTERSUBJETIVA DEL ESP. FÍSICO Y S",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E12",
+                "salon": "Sal?n E12-AUD3-P1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "507054C",
+      "nombre": "EXPRESIÓN VISUAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E12",
+                "salon": "Sal?n E12-AULA3-P3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509037M",
+      "nombre": "ESTÉTICA DE LAS VANGUARDIAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E6",
+                "salon": "Sal?n 4011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509110M",
+      "nombre": "ESTÉTICA DEL SIGLO XX",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:30",
+              "ubicacion": {
+                "edificio": "E6",
+                "salon": "Sal?n AUDIIT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509125M",
+      "nombre": "ANTROPOLOGÍA CULTURAL Y EDUCACIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "D5",
+                "salon": "Sal?n 3017"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509133M",
+      "nombre": "ARTE COLOMBIANO SEGUNDA MITAD SIGLO XX",
+      "creditos": 4,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E6",
+                "salon": "Sal?n 4011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509219M",
+      "nombre": "ARTE CIENCIA TECNOLOGÍA. DESAFÍOS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509233M",
+      "nombre": "RITUALIDAD Y MESTIZAJE EN LOS CARNAVALES",
+      "creditos": 4,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E10",
+                "salon": "Sal?n 1003"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509239M",
+      "nombre": "ENSAYO ARGUMENTATIVO O COMO CONTAR HIST.",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E6",
+                "salon": "Sal?n 4011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "509253M",
+      "nombre": "ARTE Y ESTÉTICA MEDIEVAL",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E6",
+                "salon": "Sal?n 4011"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "600001C",
+      "nombre": "CURSO BÁSICO FORMACIÓN EN INVESTIGACIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "600002C",
+      "nombre": "CURSO AVANZADO DE FORMACIÓN EN INVESTIG.",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "614002C",
+      "nombre": "INTRODUCCIÓN AL MICROBIOMA HUMANO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "110",
+                "salon": "Sal?n 205"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "620011C",
+      "nombre": "ABORDAJE INTEGRAL PERSONAS ONCOLÓGICAS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "110",
+                "salon": "Sal?n 205"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "620012C",
+      "nombre": "MOVIMIENTO CORPORAL CONSCIENTE",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sal?n 102"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "620013C",
+      "nombre": "CUIDADOS PALIATIVOS ENFOQUE TRANSDISCIP.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sal?n 105"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "620179M",
+      "nombre": "ESTRATEGIAS GRUPALES EN REHABILITACIÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "135",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "622082M",
+      "nombre": "INFORMATICA EN SALUD",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "132",
+                "salon": "Sal?n 419"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "626010M",
+      "nombre": "ELECT.COMPL.MEDICINA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "626023M",
+      "nombre": "CUIDANDO MI SALUD PARA CUIDAR A OTROS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "626043M",
+      "nombre": "ACTIVIDAD FÍSICA EN PREHOSPITALARIA I",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "626044M",
+      "nombre": "ACTIVIDAD FÍSICA EN PREHOSPITALARIA II",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2015"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "701001C",
+      "nombre": "INSERCIÓN A LA VIDA UNIVERSITARIA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC2"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2005"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2007"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1015"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1055"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "6",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2009"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "7",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "8",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1026"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "9",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "10",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1003"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "11",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1005"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "12",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1052"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "13",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1011"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "14",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1013"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "15",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1015"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "16",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1020"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "17",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1030"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "18",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1009"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "19",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "20",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1003"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "21",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1013"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710004C",
+      "nombre": "TALLER DE INGENIERÍA II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2014"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710008C",
+      "nombre": "LÓGICA COMBINACIONAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            },
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710014C",
+      "nombre": "TALLER DE INGENIERÍA III",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2018"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710024C",
+      "nombre": "TALLER DE INGENIERÍA ELÉCTRICA I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710025C",
+      "nombre": "TALLER TECNOLÓGICO II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2014"
+              }
+            },
+            {
+              "dia": "Lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "21:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2014"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710026",
+      "nombre": "REGULACIÓN DEL SECTOR ELÉCTRICO",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E55",
+                "salon": "Sal?n 1006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710030C",
+      "nombre": "TALLER DE INGENIERÍA IV",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2014"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 2018"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710070C",
+      "nombre": "PROYECTO DE INGENIERÍA ELÉCTRICA II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1017-2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710073C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E53",
+                "salon": "Sal?n 2016"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710103C",
+      "nombre": "SEMIN. DE TRABAJO DE GRADO- ING ELÉCTRICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E55",
+                "salon": "Sal?n 1006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710110C",
+      "nombre": "INTRODUCCCIÓN A LA INGENIERÍA - EIEE",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1014"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E52",
+                "salon": "Sal?n 1014"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "710113C",
+      "nombre": "INTRODUCCIÓN A LAS TECNOLOGÍAS - EIEE",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720003C",
+      "nombre": "SEMINARIO TALLER I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1006"
+              }
+            },
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720005C",
+      "nombre": "INGENIERÍA DE PAVIMENTOS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720008C",
+      "nombre": "SEMINARIO TALLER II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2002"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720012C",
+      "nombre": "GEOMETRÍA DESCRIPTIVA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1040"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1040"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720029C",
+      "nombre": "INTRODUCCIÓN A LA GEOMÁTICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720041C",
+      "nombre": "SEMINARIO TALLER III",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2002"
+              }
+            },
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720058C",
+      "nombre": "SEMINARIO TALLER VIII",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E48",
+                "salon": "Sal?n 2004"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720085C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E43",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720094C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - CIVIL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1016"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "720095C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - GEOMÁTICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E43",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730021M",
+      "nombre": "RECURSOS HÍDRICOS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730025C",
+      "nombre": "SEM.CONSTITUCIÓN, LEGIS. AMBIENT. Y ÉTIC",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1021"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "21:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1026"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730026C",
+      "nombre": "SEM.CONSTITUCIÓN, LEGISLACIÓN Y ÉTICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1055"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2017"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n 2106"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "6",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "18:00",
+              "hora_fin": "21:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2011"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "7",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "S?bado",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730045C",
+      "nombre": "SEM. EN CONST. LEGISLACIÓN Y ÉTICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1025"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "Sal?n SC1"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730046C",
+      "nombre": "TALLER I ISA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2023"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730064C",
+      "nombre": "TALLER II ISA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730071C",
+      "nombre": "PARTIC. COMUNITARIA PROYECTOS AGRÍCOLAS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730091C",
+      "nombre": "AGRICULTURA FAMILIAR CAMPESINA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730113C",
+      "nombre": "TALLER IV ISA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730126C",
+      "nombre": "SEMIN. DE TRABAJO DE GRADO- ING. AGRÍCOLA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "Sal?n 1002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730139C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO - ISA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 2008"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730143C",
+      "nombre": "INTRODUCCIÓN A LAS TECNOLOGÍAS - TEMA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1030"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730155C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - AGRÍCOLA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730157C",
+      "nombre": "INTRODUCCIÓN A LAS TECNOLOGÍAS - TEMCSA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1030"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "730158C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - ISA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "740001C",
+      "nombre": "HERRAMIENTAS PROFESIONALES",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E27",
+                "salon": "Sal?n 1022-3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "740040C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - QUÍMICA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E27",
+                "salon": "Sal?n 1023"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "745012C",
+      "nombre": "NUTRICIÓN Y TOXICOLOGÍA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "745021C",
+      "nombre": "TALLER DE INGENIERÍA DE ALIMENTOS II",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "08:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "745035C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 2027"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "745036C",
+      "nombre": "TRABAJO DE GRADO I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "sin_horario_asignado",
+          "sesiones": [],
+          "observacion": "Sin horario asignado"
+        }
+      ]
+    },
+    {
+      "codigo": "745050C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - ALIMENTOS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1058"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "750036C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "750038C",
+      "nombre": "TRABAJO DE GRADO I",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "sin_horario_asignado",
+          "sesiones": [],
+          "observacion": "Sin horario asignado"
+        }
+      ]
+    },
+    {
+      "codigo": "750045C",
+      "nombre": "INTROD. A LAS TEC. - DESARROLLO SOFTWARE",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "750046C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA - SISTEMAS",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "Sal?n AUD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "760045C",
+      "nombre": "INTRODUCCIÓN A LA INGENIER. - INDUSTRIAL",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1030"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "Sal?n 1042"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "770028C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E44",
+                "salon": "Sal?n 2003"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "770035C",
+      "nombre": "INTRODUCCIÓN A LA INGENIERÍA -MATERIALES",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E44",
+                "salon": "Sal?n 2005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "780022C",
+      "nombre": "SEMINARIO DE TRABAJO DE GRADO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E49",
+                "salon": "Sal?n 2010"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "780033C",
+      "nombre": "VIDA Y CONTEXTO UNIVERSITARIO",
+      "creditos": 1,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "12:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "Sal?n 1003"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E33",
+                "salon": "Sal?n 1002"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "801126C",
+      "nombre": "HUMANISMO, PENSAMIENTO ADMINIS. Y ORGAN.",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "124",
+                "salon": "Sal?n 109"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "124",
+                "salon": "Sal?n GRAB"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "3",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "4",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "5",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Viernes",
+              "hora_inicio": "18:30",
+              "hora_fin": "21:30",
+              "ubicacion": {
+                "edificio": "124",
+                "salon": "Sal?n 109"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "801142C",
+      "nombre": "ÉTICA EN NEGOCIOS, RSE Y SOSTENIBILIDAD",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "124",
+                "salon": "Sal?n 102"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "124",
+                "salon": "Sal?n GRAC"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "801231C",
+      "nombre": "LENGUAJE GERENCIAL, DISCURSO Y ORATORIA",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Mi?rcoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "127",
+                "salon": "Sal?n 203"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "999027M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN I - CIENCIAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999028M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN I - HUMANIDADE",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999031M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN I - PSICOLOGÍA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999032M",
+      "nombre": "PASANTÍA EN INVEST I - ARTES INTEGRADAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999033M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN I - SALUD",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999035M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN I - ADMÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999039M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II - CIENCIAS",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999040M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II - HUMANIDAD",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999043M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II- PSICOLOGÍA",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999044M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II - ARTES INT",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999045M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II - SALUD",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "999047M",
+      "nombre": "PASANTÍA EN INVESTIGACIÓN II - ADMÓN",
+      "creditos": 3,
+      "curricular_credits": 0,
+      "grupos": []
+    },
+    {
+      "codigo": "D01019C",
+      "nombre": "HABILID. INFORMÁTICAS EN ÁMBITO JURÍDICO",
+      "creditos": 2,
+      "curricular_credits": 0,
+      "grupos": [
+        {
+          "codigo": "1",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "2",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": "Sin espacio asignado (San Fernando)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

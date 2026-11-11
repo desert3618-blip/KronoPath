@@ -1,0 +1,1377 @@
+{
+  "version_esquema": 1,
+  "programa": "economia",
+  "periodo_academico": "2026-2",
+  "fuente": "../materias/Materias_Pensum_Economia_Actualizado.xlsx",
+  "materias": [
+    {
+      "codigo": "303013C",
+      "nombre": "Principios de Economía",
+      "nombre_oferta": "PRINCIPIOS DE ECONOMÍA",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1019"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1019"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1019"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303003C",
+      "nombre": "Teoría Social",
+      "nombre_oferta": "TEORÍA SOCIAL",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1021"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111009C",
+      "nombre": "Matemática Básica",
+      "nombre_oferta": "MATEMÁTICA BÁSICA",
+      "creditos": 4,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2105"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2103"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2105"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E37",
+                "salon": "AUD1"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2111"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2106"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "201087C",
+      "nombre": "Historia Económica General",
+      "nombre_oferta": "HISTORIA ECONÓMICA GENERAL",
+      "creditos": 3,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1005"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204133C",
+      "nombre": "Comprensión y Producción de Textos Académicos Generales",
+      "nombre_oferta": "COMP. Y PROD. TEXTOS ACADÉMIC. GENERALES",
+      "creditos": 2,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "24",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204025C",
+      "nombre": "Inglés con Fines Generales y Académicos I",
+      "nombre_oferta": "INGLÉS CON FINES GENERALES Y ACADÉM. I",
+      "creditos": 2,
+      "semestre_sugerido": 1,
+      "grupos": [
+        {
+          "codigo": "09",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2027"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2027"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303014C",
+      "nombre": "Microeconomía I",
+      "nombre_oferta": "MICROECONOMÍA I",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4012"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4012"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4006"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "203013C",
+      "nombre": "Ética y Política",
+      "nombre_oferta": "ÉTICA Y POLÍTICA",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "grupos": [
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        },
+        {
+          "codigo": "03",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1021"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111010C",
+      "nombre": "Cálculo I",
+      "nombre_oferta": "CÁLCULO I",
+      "creditos": 4,
+      "semestre_sugerido": 2,
+      "grupos": [
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "AC1"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1021"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1021"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111006C",
+      "nombre": "Álgebra Lineal",
+      "nombre_oferta": "ÁLGEBRA LINEAL",
+      "creditos": 3,
+      "semestre_sugerido": 2,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1052"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2117"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2013"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204026C",
+      "nombre": "Inglés con Fines Generales y Académicos II",
+      "nombre_oferta": "INGLÉS FINES GENERALES Y ACADÉMICOS II",
+      "creditos": 2,
+      "semestre_sugerido": 2,
+      "grupos": [
+        {
+          "codigo": "09",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1027"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1027"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303017C",
+      "nombre": "Microeconomía II",
+      "nombre_oferta": "MICROECONOMÍA II",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "AC3"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "750002C",
+      "nombre": "Informática I",
+      "nombre_oferta": "INFORMÁTICA I",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "08",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "B13",
+                "salon": "SALA 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111018C",
+      "nombre": "Cálculo II",
+      "nombre_oferta": "CÁLCULO II",
+      "creditos": 4,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "2105"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2006"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1025"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111019C",
+      "nombre": "Estadística I",
+      "nombre_oferta": "ESTADÍSTICA I",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2025"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303022C",
+      "nombre": "Medición Socioeconómica",
+      "nombre_oferta": "MEDICIÓN SOCIOECONÓMICA",
+      "creditos": 3,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "SALA SISTEMAS"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204027C",
+      "nombre": "Inglés con Fines Generales y Académicos III",
+      "nombre_oferta": "INGLÉS CON FINES GENERALES Y ACADÉM. III",
+      "creditos": 2,
+      "semestre_sugerido": 3,
+      "grupos": [
+        {
+          "codigo": "08",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2011"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "18:00",
+              "hora_fin": "20:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1003"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303010C",
+      "nombre": "Teoría del Bienestar",
+      "nombre_oferta": "TEORÍA DEL BIENESTAR",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2021"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303007C",
+      "nombre": "Macroeconomía I",
+      "nombre_oferta": "MACROECONOMÍA I",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "1002"
+              }
+            },
+            {
+              "dia": "Martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1013"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303026C",
+      "nombre": "Economía Matemática",
+      "nombre_oferta": "ECONOMÍA MATEMÁTICA",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            },
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "111020C",
+      "nombre": "Estadística II",
+      "nombre_oferta": "ESTADÍSTICA II",
+      "creditos": 3,
+      "semestre_sugerido": 4,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1019"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1061"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "16:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "SALA 1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204028C",
+      "nombre": "Inglés con Fines Generales y Académicos IV",
+      "nombre_oferta": "INGLÉS FINES GENERALES Y ACADÉMICOS IV",
+      "creditos": 2,
+      "semestre_sugerido": 4,
+      "grupos": [
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1009"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303015C",
+      "nombre": "Teoría de Juegos",
+      "nombre_oferta": "TEORÍA DE JUEGOS",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1017"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "SALA 5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303008C",
+      "nombre": "Macroeconomía II",
+      "nombre_oferta": "MACROECONOMÍA II",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": null,
+                "salon": null
+              },
+              "observacion": "Sin espacio asignado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303009C",
+      "nombre": "Econometría I",
+      "nombre_oferta": "ECONOMETRÍA I",
+      "creditos": 4,
+      "semestre_sugerido": 5,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4003"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4003"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "02",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4003"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "D12",
+                "salon": "4003"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303025C",
+      "nombre": "Ciencias Ambientales",
+      "nombre_oferta": "CIENCIAS AMBIENTALES",
+      "creditos": 3,
+      "semestre_sugerido": 5,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303038C",
+      "nombre": "Evaluación Socioambiental de Proyectos",
+      "nombre_oferta": "EVALUACIÓN SOCIOAMBIENTAL DE PROYECTOS",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1001"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303037C",
+      "nombre": "Macroeconomía Dinámica",
+      "nombre_oferta": "MACROECONOMÍA DINÁMICA",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2001"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2005"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303016C",
+      "nombre": "Econometría II",
+      "nombre_oferta": "ECONOMETRÍA II",
+      "creditos": 4,
+      "semestre_sugerido": 6,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2027"
+              }
+            },
+            {
+              "dia": "Viernes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2017"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "201088C",
+      "nombre": "Historia Económica de Colombia",
+      "nombre_oferta": "HISTORIA ECONÓMICA DE COLOMBIA",
+      "creditos": 3,
+      "semestre_sugerido": 6,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "15:00",
+              "hora_fin": "18:00",
+              "ubicacion": {
+                "edificio": "B23",
+                "salon": "1001"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303042C",
+      "nombre": "Política Económica",
+      "nombre_oferta": "POLÍTICA ECONÓMICA",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E20",
+                "salon": "SC3"
+              }
+            },
+            {
+              "dia": "Miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2013"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303011C",
+      "nombre": "Metodología de la Economía",
+      "nombre_oferta": "METODOLOGÍA DE LA ECONOMÍA",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "1003"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2008"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303041C",
+      "nombre": "Economía Internacional",
+      "nombre_oferta": "ECONOMÍA INTERNACIONAL",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2023"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E37",
+                "salon": "AUD1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303044C",
+      "nombre": "Seminario de Investigación",
+      "nombre_oferta": "SEMINARIO DE INVESTIGACIÓN",
+      "creditos": 3,
+      "semestre_sugerido": 7,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "17:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2023"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "204165C",
+      "nombre": "C y P de Textos Disciplinas - Socioecon.",
+      "nombre_oferta": "C Y P DE TEXTOS DISCIPLINAS - SOCIOECON.",
+      "creditos": 2,
+      "semestre_sugerido": 7,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "10:00",
+              "hora_fin": "13:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303045C",
+      "nombre": "Trabajo de Grado I",
+      "nombre_oferta": "TRABAJO DE GRADO I",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "sin_horario",
+          "sesiones": [],
+          "observacion": "Sin horario asignado"
+        }
+      ]
+    },
+    {
+      "codigo": "303012C",
+      "nombre": "Teoría y Política del Desarrollo",
+      "nombre_oferta": "TEORÍA Y POLÍTICA DEL DESARROLLO",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Martes",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E23",
+                "salon": "2011"
+              }
+            },
+            {
+              "dia": "Jueves",
+              "hora_inicio": "07:00",
+              "hora_fin": "09:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "1023"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303043C",
+      "nombre": "Problemas Colombianos",
+      "nombre_oferta": "PROBLEMAS COLOMBIANOS",
+      "creditos": 3,
+      "semestre_sugerido": 8,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "programado",
+          "sesiones": [
+            {
+              "dia": "Lunes",
+              "hora_inicio": "07:00",
+              "hora_fin": "10:00",
+              "ubicacion": {
+                "edificio": "E26",
+                "salon": "2007"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "303046C",
+      "nombre": "Trabajo de Grado II",
+      "nombre_oferta": "TRABAJO DE GRADO II",
+      "creditos": 3,
+      "semestre_sugerido": 9,
+      "grupos": [
+        {
+          "codigo": "01",
+          "estado_horario": "sin_horario",
+          "sesiones": [],
+          "observacion": "Sin horario asignado"
+        }
+      ]
+    }
+  ]
+}
